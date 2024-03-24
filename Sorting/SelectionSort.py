@@ -2,7 +2,8 @@ from random import randint
 from verification import verify_sort
 
 
-#  Complexity is  O(N^2)
+# Complexity is  O(N^2), though technicaly better, since it skips some of the inner loops
+# Actual complexity is (n(n+1))/2
 def selection_sort(array):
     for i in range(len(array)):
         lowest_pos = 0
