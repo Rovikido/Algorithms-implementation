@@ -1,6 +1,8 @@
 from template import Edge, Graph
 
 
+# Complexity is O(V+E) since we avoid visiting procesed vertecies
+
 
 class BreadthFirstGraph(Graph):
     def BFS(self, start_node, search_value):
